@@ -5,10 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Naturalizer</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/inicio.css">
     <link rel="icon" href="logo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/react-is/18.2.0/umd/react-is.production.min.js" integrity="sha512-69vv9jhQmV57vnri8OKCU0N5F85/6W1fFSjd349lyC5z7PViFNNCA4qOz12qc4pAcBIEJfCBjSDriy023suLtQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@600&display=swap');
@@ -20,11 +22,11 @@
 <body> <div id="contenedor">
     <header>
         <div class="Menu">
-            <a class="inicio" href="Inicio.html">Inicio</a>
-            <a class="nosotros" href="Nosotros.html">Nosotros</a>
-            <a class="productos" href="Productos.html">Plantas</a>
-            <a class="cuidado" href="Cuidado.html">Cuidado de Plantas</a>
-            <a class="ubicacion" href="Ubicacion.html">Contactenos</a>
+            <a class="inicio" href="/">Inicio</a>
+            <a class="nosotros" href="#nosotros">Nosotros</a>
+            <a class="productos" href="#Plantas">Plantas</a>
+            <a class="cuidado" href="#CuidadoPlantas">Cuidado de Plantas</a>
+            <a class="ubicacion" href="/contacts">Contactenos</a>
         </div>
     </header>
 
@@ -44,8 +46,14 @@
                     <li><img src="pexels-pixabay-158780.jpg" alt=""></li>
                 </ul>
             </div>
+            <span id="nosotros"></span>
+            <div class="titular1">
+                <h2>Cuidado y Conservación del día</h2>
+            </div>
+            <div class="titular2">
+                <h1>"Sembremos unidos para juntos conservar nuestra salud"</h1>
+            </div>
         </article>
-
         <article class="fondo1">
             <div class="bloque1">
                 <p class="p1">Sobre Nosotros</p>
@@ -55,10 +63,10 @@
             <div class="caja1">
                 <img src="espai-joliu_40.jpg" class="animate__animated animate__flipInX"alt="">
             </div>
-            <button>¡Descubre Más!</button>
+
+            <a class="a" href="/nosotros">¡Descubre más!</a>
             <p class="imaginario"></p>
         </article>
-
         <article>
             <div class="imaginario2">
                 <p>¡Tenemos todo lo que necesitas aquí, en Naturalizer!</p>
@@ -66,6 +74,7 @@
         </article>
 
         <article>
+            <span id="Plantas"></span>
             <div class="h4">
                 <h1>Medicinal and Ornamental Plants</h1>
             </div>
@@ -152,7 +161,7 @@
         </article>
 
         <article>
-            
+            <span id="CuidadoPlantas"></span>
             <div class="caja2">
                 <h1>Cuidado de Plantas</h1>
             </div>
@@ -173,6 +182,10 @@
                 <p>Las plantas nos proporcionan los recursos que los seres vivos necesitamos para vivir, además nos protegen de algunos desastres, controlan el clima y nos proporcionan el oxígeno que respiramos.</p>
             </div>
 
+            <div class="anuncio2">
+                <img src="anuncion2.gif" alt="">
+            </div>
+
         </article>
 
         <div class="arribacaja">
@@ -180,6 +193,58 @@
                 <i class="fa-solid fa-up"></i>
             </div>
         </div>
+
+        <footer class="footer-distributed">
+
+            <div class="footer-left">
+                <h3>Naturalizer<span>RD</span></h3>
+    
+                <p class="footer-links">
+                    <a href="Naturalizer.html">Inicio</a>
+                    |
+                    <a href="#nosotros">Nosotros</a>
+                    |
+                    <a href="#Plantas">Plantas</a>
+                    |
+                    <a href="#CuidadoPlantas">Cuidado de Plantas</a>
+                    |
+                    <a href="contacto.html">Contacto</a>
+                </p>
+    
+                <p class="footer-company-name">Copyright © 2023 <strong>NaturalizerRD</strong> All rights reserved</p>
+            </div>
+    
+            <div class="footer-center">
+                <div>
+                    <i class="fa fa-map-marker"></i>
+                    <p><span>República Dominicana</span>
+                        Santo Domingo</p>
+                </div>
+    
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <p>829-376-6606</p>
+                </div>
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <p><a href="mailto:adanrleon05@gmail.com">NaturalizerRd@gmail.com</a></p>
+                </div>
+            </div>
+            <div class="footer-right">
+                <p class="footer-company-about">
+                    <span>Sobre Nosotros</span>
+                    <strong>Naturalizer</strong> es una pagina web en la cual se promueve la venta de plantas medicinales y ornamentales por y para el cuidado del medio ambiente.
+                </p>
+                <div class="footer-icons">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-youtube"></i></a>
+                </div>
+            </div>
+        </footer>
+
 
         <script src="script.js"></script>
 

@@ -2,11 +2,69 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Website with a contact Form 01</title>
+    <link rel="stylesheet" href="./css/contacto.css">
+    <!-- GOOGLE FONTs -->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- ANIMATE CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 </head>
 <body>
-    <h1>Esta es mi pagina de contactos</h1>
+    
+    <div class="content">
+
+        <h1 class="logo">Contacta<span>nos</span></h1>
+
+        <div class="contact-wrapper animated bounceInUp">
+            <div class="contact-form">
+                <h3>Contactanos</h3>
+                <form action="" id="form">
+                    <p>
+                        <label>Nombre</label>
+                        <input type="text" id="nombre" name="fullname">
+                    </p>
+                    <p>
+                        <label>Email</label>
+                        <input type="email" id="email" name="email">
+                    </p>
+                    <p>
+                        <label>Telefono</label>
+                        <input type="tel" id="telefono" name="phone">
+                    </p>
+                    <p>
+                        <label>Asunto</label>
+                        <input type="text" id="subject" name="affair">
+                    </p>
+                    <p class="block">
+                       <label>Mensaje</label> 
+                        <textarea name="message"id= "message"  rows="3"></textarea>
+                    </p>
+                    <p class="block">
+                        <button type="submit">
+                            ENVIAR
+                        </button>
+                    </p>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h4>Más Información</h4>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> Santo Domingo</li>
+                    <li><i class="fas fa-phone"></i> 829 - 376 - 6606</li>
+                    <li><i class="fas fa-envelope-open-text"></i> contact@Naturalizer.com</li>
+                </ul>
+                <p>Naturalizer es una pagina web en la cual se promueve la venta de plantas medicinales y ornamentales por y para el cuidado del medio ambiente.
+                </p>
+                <p>Naturalizer RD</p>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./js/app.js"></script>
 </body>
 </html>

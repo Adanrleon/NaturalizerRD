@@ -15,6 +15,10 @@ app.get('/contacts', (req, res)=>{
     res.render('./pages/contacts');
 })
 
+app.get('/nosotros', (req, res)=>{
+    res.render('./pages/nosotros');
+})
+
 app.listen(port, ()=>{
     console.log(`Servidor corriendo en http://localhost:${port}`)
 })
